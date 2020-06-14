@@ -1,98 +1,72 @@
-# ----
-# Site
+# Site Settings
+title: Thrift Store Therapist
+description: When you look good, you feel GOOD!
+url:
 
-title: Thrift Treasures
-url: "http://turquoise-rook.cloudvent.net/"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-snipcart_key: ""
+# Jekyll Configuration
+encoding: UTF-8
+permalink: /:title/
+paginate: 5
+paginate_path: "/blog/page/:num/"
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Thrift Treasures Store
-author:
-  name: Thrift Treasures
-  email: info@thrifttreasures.com
-  twitter: thrifttreasures_ab # twitter username without the @ symbol
-  phone: ""
-social:
-  name: Thrift Treasures
-  links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
 
-# -----
-# Build
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Custom Collections
 collections:
-  staff_members:
-    _hide_content: true
-    _icon: account_circle
   products:
-    _hide_content: true
     output: true
-    _icon: shopping_cart
 
-permalink: pretty
-
+# Collection Defaults
 defaults:
-  -
-    scope:
-      path: ""
-      type: "products"
-    values:
-      layout: "product"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "index.html"
-    values:
-      layout: "default"
+- scope:
+    type: posts
+  values:
+    layout: post
+- scope:
+    type: pages
+  values:
+    layout: page
+- scope:
+    type: products
+  values:
+    layout: product
 
+# Frontmatter Defaults
+sidebar_options:
+  - sidebar
+  - no-sidebar
+
+# File Handling
+# include: [_pages]
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json]
+
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+# Archives
 jekyll-archives:
   enabled:
     - categories
+    - tags
+  permalinks:
+    categories: '/category/:name/'
+    tags: '/tag/:name/'
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-# -----------
-# CloudCannon
-
-garment_types:
-  - hat
-  - top
-
-social_icons:
-  - Email
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-_comments:
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  pricing_table: Update the information in the pricing tables.
-  highlight: Emphasis the text
-  color: The background color used in the plan name and call to action.
-  new_window: Open link in new window
-  description: This is used for facebook shares of the page and google indexing
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

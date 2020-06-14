@@ -8,8 +8,11 @@ description_markdown: >-
   Size 10, 100% Cotton.
 garment_type:
 price: '29.00'
+sizes:
+  - 10
 sku: pants1
 styles:
   - name: black
-    image: /images/products/pants1/pants1.jpg
+    image_path: /images/products/pants1/pants1.jpg
+featured_image_path: '/images/products/pants1/pants1.jpg'
 ---

@@ -8,8 +8,11 @@ description_markdown: >-
   Size 10, 100% Cotton.
 garment_type:
 price: '29.00'
+sizes:
+  - 10
 sku: dress1
 styles:
   - name: Black
-    image: /images/products/dress1/dress1.jpg
+    image_path: /images/products/dress1/dress1.jpg
+featured_image_path: '/images/products/dress1/dress1.jpg'
 ---

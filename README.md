@@ -1,60 +1,74 @@
-## Fur
+# Jekyll Cart
 
-E-commerce template for Jekyll. Browse through a [live demo](https://turquoise-rook.cloudvent.net).
+Code Repo: https://github.com/bradonomics/jekyll-cart/<br>
+Demo: http://bradonomics.github.io/jekyll-cart/
 
-![Fur template screenshot](images/_screenshot.png)
+Jekyll Cart is a Jekyll based shopping cart built with simpleCart(js). It incorporates work from the following:
 
-Fur was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+### Jekyll
 
-Find more templates, themes and Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+Homepage: http://jekyllrb.com/<br>
+GitHub Repo: https://github.com/jekyll/jekyll
 
-## Features
+### Jekyll Boilerplate
 
-* List product with multiple colours and sizes
-* Take payment online using SnipCart
-* Contact form
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+GitHub Repo: https://github.com/bradonomics/jekyll-boilerplate
 
-## Setup
+### simpleCart(js)
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics, Google Maps API key and [SnipCart key](https://snipcart.com/) to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+Homepage: http://simplecartjs.org/<br>
+GitHub Repo: https://github.com/wojodesign/simplecart-js
 
-## Develop
+### Fur Theme by CloudCannon
 
-Fur was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
+Homepage: https://turquoise-rook.cloudvent.net/<br>
+GitHub Repo: https://github.com/CloudCannon/fur-jekyll-template
+
+## Getting Started
+
+You can [download the files from GitHub](https://github.com/bradonomics/jekyll-cart/archive/master.zip) (or clone the repo: `git clone https://github.com/bradonomics/jekyll-cart.git`) and have a fully functioning Jekyll site with shopping cart in minutes.
+
+### Develop
+
+Jekyll Cart was built with Jekyll v3.4.3, but should support newer versions also.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
+```shell
 $ bundle install
-~~~
+```
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+A gulp file and package.json has been included if you'd rather run Browser Sync. If not, you can run Jekyll with it's built-in serve commands
 
-~~~bash
+```shell
+$ jekyll serve
+```
+
+Alghouth running `jekyll` commands through Bundler will ensure you're using the right versions:
+
+```shell
 $ bundle exec jekyll serve
-~~~
+```
 
-## Editing
+### Editing
 
-Fur is already optimised for adding, updating and removing products and editing the navigation and footer in CloudCannon.
+Jekyll Cart was optimized for CloudCannon but will run without it. If you plan to use the email checkout feature but aren't hosted with CloudCannon, you'll need some form system to do the sending. [Formspree](https://formspree.io/) is a good option.
 
-### Posts
+## License
 
-* Add, update or remove a post in the *Posts* collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+[Jekyll Cart](https://github.com/bradonomics/jekyll-cart/) is released under the [GPL-2.0 License](http://www.gnu.org/licenses/gpl-2.0.html).
 
-### Navigation
+[Jekyll](http://jekyllrb.com/) is released under the MIT license. [simpleCart(js)](https://github.com/wojodesign/simplecart-js) is released under the MIT license and the [GPL-2.0 License](http://www.gnu.org/licenses/gpl-2.0.html). [Fur by CloudCannon](https://github.com/CloudCannon/fur-jekyll-template) is released under the MIT license.
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
+> This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2, as
+published by the Free Software Foundation.
 
-### Footer
+> This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+> You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA

@@ -1,10 +1,19 @@
-$brand-color: #7d59f2;
-$brand-color-2: #e371f6;
-$default-hero-image: "/images/hero/box-top.jpg";
+/* Fonts
+-------------------------------------------------- */
+$primary-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$secondary-font-family: 'Roboto Condensed', sans-serif;
+$tertiary-font-family: Martel, serif;
 
-// Breakpoints
-$tablet: "(min-width: 450px)";
-$above-tablet: "(min-width: 550px)";
-$mid-point: "(min-width: 850px)";
-$below-mid-point: "(max-width: 849px)";
-$desktop: "(min-width: 768px)";
+/* Colors
+-------------------------------------------------- */
+$primary-color: #1eaedb;
+$primary-color-hover: #0fa0ce;
+
+$secondary-color: #12302e;
+
+$button-text-color: #fff;
+$button-background-color: #33c3f0;
+
+$button-text-color-hover: #fff;
+$button-background-color-hover: #1eaedb;
+
