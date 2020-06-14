@@ -34,7 +34,7 @@ layout: compress
       <script async src="{{ site.url }}/js/add-to-cart.js"></script>
     {% endif %}
 
-    {% if page.url == '/checkout/' %}
+    {% if page.url != '/checkout/' %}
       <script async src="{{ site.url }}/js/checkout.js"></script>
     {% endif %}
 

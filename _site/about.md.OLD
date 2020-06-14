@@ -248,6 +248,8 @@ including it in this guide.
     
 
     
+      <script async src="http://localhost:4000/js/checkout.js"></script>
+    
 
   </body>
 
