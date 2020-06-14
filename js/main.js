@@ -14,7 +14,7 @@ simpleCart({
     { attr: "name" , label: "Name" } ,
     { attr: "price" , label: "Price", view: 'currency' } ,
     { attr: "size" , label: "Size" } ,
-    { attr: "color" , label: "Color" } ,
+    //{ attr: "color" , label: "Color" } ,
     { view: "decrement" , label: false , text: "- 1" } ,
     { attr: "quantity" , label: "Qty" } ,
     { view: "increment" , label: false , text: "+ 1" } ,
