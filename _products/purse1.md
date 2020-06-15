@@ -5,7 +5,7 @@ description_markdown: >-
 
 
 
-  Size 10, 100% Cotton.
+  
 garment_type:
 price: '20.00'
 sizes:
