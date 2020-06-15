@@ -2,7 +2,7 @@ simpleCart({
 
   checkout: {
     type: "PayPal",
-    mail: "tanyanjack@gmail.com"
+    email: "tanyanjack@gmail.com"
   },
 
   // tax: 0.075,
