@@ -7,7 +7,7 @@ description_markdown: >-
 
   Size 10, 100% Cotton.
 garment_type:
-price: '29.00'
+price: '40.00'
 sizes:
   - 10
 sku: pants1

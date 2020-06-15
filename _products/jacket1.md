@@ -1,0 +1,18 @@
+---
+name: Zara Suede Jacket
+description_markdown: >-
+  Zara Suede Jacket. Brand new!
+
+
+
+  Size 10, 100% Cotton.
+garment_type:
+price: '30.00'
+sizes:
+  - XS
+sku: pants1
+styles:
+  - name: black
+    image_path: /images/products/jacket1/jacket1.jpg
+featured_image_path: '/images/products/jacket1/jacket1.jpg'
+---
