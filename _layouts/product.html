@@ -12,8 +12,9 @@ layout: default
           <div class="styles">
             {% for style in page.styles %}
           		<div id="product-{{ forloop.index }}" class="style" {% unless forloop.first %}style="display: none"{% endunless %}>
-        				<img src="{{ style.image_path }}" itemprop="image">
+        				<a href="{{ page.insta_link }}" target="popup" onclick="window.open('{{ page.insta_link }}','popup','width=600,height=600'); return false;"><img src="{{ style.image_path }}" itemprop="image"></a>
           		</div>
+				<h4>Click on image for more pics/videos</h4>
           	{% endfor %}
           </div>
         </section>
