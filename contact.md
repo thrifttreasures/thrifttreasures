@@ -11,7 +11,7 @@ map:
 ---
 
 <div class="contact-box">
-	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+	<form action="https://formspree.io/xlepnynq" method="post" class="contact-form">
 		<h3>Send us a message</h3>
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>

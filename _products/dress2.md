@@ -1,5 +1,5 @@
 ---
-name: Sumner Dress
+name: Summerer Dress
 description_markdown: >-
  Summer Dress. Brand new!
 
@@ -7,7 +7,7 @@ description_markdown: >-
 
   
 garment_type:
-price: '55.00'
+price: '15.00'
 sizes:
   - Medium
 sku: dress1
