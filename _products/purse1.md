@@ -15,4 +15,5 @@ styles:
   - name: black
     image_path: /images/products/purse1/purse1.jpg
 featured_image_path: '/images/products/purse1/purse1.jpg'
+insta_link: 'https://www.instagram.com/p/CBcGyZZh3IG/'
 ---

@@ -1,7 +1,7 @@
 ---
-name: Wilfred Montbrun dress
+name: Silver Glitter Pants
 description_markdown: >-
-  The Wilfred Montbrun dress. Brand new!
+  Silver Glitter Pants. Brand new!
 
 
 
@@ -15,4 +15,5 @@ styles:
   - name: black
     image_path: /images/products/pants1/pants1.jpg
 featured_image_path: '/images/products/pants1/pants1.jpg'
+insta_link: 'https://www.instagram.com/p/CBUKid4l71t/'
 ---

@@ -1,5 +1,5 @@
 ---
-name: Summerer Dress
+name: Summer Dress
 description_markdown: >-
  Summer Dress. Brand new!
 
@@ -15,4 +15,5 @@ styles:
   - name: Black
     image_path: /images/products/dress2/dress2.jpg
 featured_image_path: '/images/products/dress2/dress2.jpg'
+insta_link: 'https://www.instagram.com/p/CBVnzoWFGN5/'
 ---

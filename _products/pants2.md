@@ -15,4 +15,5 @@ styles:
   - name: black
     image_path: /images/products/pants2/pants2.jpg
 featured_image_path: '/images/products/pants2/pants2.jpg'
+insta_link: 'https://www.instagram.com/p/CBVinBdluDR/'
 ---

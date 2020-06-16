@@ -15,4 +15,5 @@ styles:
   - name: Black
     image_path: /images/products/dress5/dress5.jpg
 featured_image_path: '/images/products/dress5/dress5.jpg'
+insta_link: 'https://www.instagram.com/p/CBY2ObzB-sy/?igshid=1h2569203ubcg'
 ---

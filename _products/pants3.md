@@ -15,4 +15,5 @@ styles:
   - name: black
     image_path: /images/products/pants3/pants3.jpg
 featured_image_path: '/images/products/pants3/pants3.jpg'
+insta_link: 'https://www.instagram.com/p/CBTSmZdlTLl/'
 ---

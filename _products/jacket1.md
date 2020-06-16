@@ -15,4 +15,5 @@ styles:
   - name: black
     image_path: /images/products/jacket1/jacket1.jpg
 featured_image_path: '/images/products/jacket1/jacket1.jpg'
+insta_link: 'https://www.instagram.com/p/CBXAmAQBOhd/'
 ---
