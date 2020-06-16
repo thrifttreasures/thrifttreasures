@@ -22,7 +22,7 @@ layout: default
         <section class="product-details">
           <h1 class="entry-title item_name" itemprop="name">{{ page.name }}</h1>
 		  <p>{{ page.description_markdown }}</p>
-          <p class="item_price">{{ page.price }} USD</p>
+          <p class="item_price">{{ page.price }} {{ site.currency }}</p>
           {{ content }}
 
         	<!--<div class="style-picker">

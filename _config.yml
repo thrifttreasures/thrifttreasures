@@ -3,6 +3,7 @@ title: Thrifting Treasures
 description: When you look good, you feel GOOD!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thriftstoretherapist.com/" # the base hostname & protocol for your site, e.g. http://example.com
+currency: USD
 
 # Jekyll Configuration
 encoding: UTF-8
