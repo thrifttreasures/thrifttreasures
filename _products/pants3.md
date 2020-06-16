@@ -7,7 +7,7 @@ description_markdown: >-
 
   
 garment_type:
-price: '50.00'
+price: '60.00'
 sizes:
   - 2X
 sku: pants1
