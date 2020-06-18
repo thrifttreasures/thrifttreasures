@@ -1,11 +1,13 @@
 ---
 name: Pack of 10 Tops
 description_markdown: >-
-  Pack of 10 Tops.
+  Pack of 10 Tops. DONE ONLY BY REQUEST!
 
 
+categories:
+  - tops
+  - all
 
-  
 garment_type:
 price: '30.00'
 sizes:
