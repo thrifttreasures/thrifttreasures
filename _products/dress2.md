@@ -4,8 +4,8 @@ description_markdown: >-
  Summer Dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '15.00'
 sizes:

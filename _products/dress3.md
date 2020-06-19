@@ -4,8 +4,8 @@ description_markdown: >-
  Material Girl Collection Mesh Dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '25.00'
 sizes:

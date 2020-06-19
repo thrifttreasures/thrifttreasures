@@ -4,9 +4,7 @@ description_markdown: >-
   Pack of 10 Tops. DONE ONLY BY REQUEST!
 
 
-categories:
-  - tops
-  - all
+category: tops
 
 garment_type:
 price: '30.00'

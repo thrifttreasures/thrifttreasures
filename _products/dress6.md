@@ -4,8 +4,8 @@ description_markdown: >-
  DoandBe Brown Dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '25.00'
 sizes:

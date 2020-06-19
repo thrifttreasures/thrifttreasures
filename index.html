@@ -10,32 +10,61 @@ layout: default
 <div class="site-inner">
   <div class="wrap">
     <div class="content-sidebar-wrap">
+      <div class="filtering">
+        <!-- Gather unique categories from products -->
+        {% assign category_types = site.products | map: 'category' | join: ',' |
+        join: ',' | split: ',' | uniq | sort %}
+        <button id="showall">Show All</button>
+        {% for category in category_types %} {% if category != "" %}
+        <button id="{{ category | slugify }}">{{ category }}</button>
+        {% endif %} {% endfor %}
+      </div>
 
       <main class="content grid">
         {% for product in site.products %}
-          <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
+        <section
+          class="entry one-third styles  {% if product.category %}{{ product.category | slugify }}{% endif %}"
+          itemscope
+          itemtype="http://schema.org/Product"
+        >
+          <div class="style">
+            <a href="{{ product.url }}">
+              <img src="{{ product.featured_image_path }}" itemprop="image" />
+            </a>
+          </div>
 
-        		<div class="style">
-        			<a href="{{ product.url }}">
-        				<img src="{{ product.featured_image_path }}" itemprop="image">
-        			</a>
-        		</div>
-
-            <div class="product-details">
-              <div class="product-name">
-			          <h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-              </div>
-              <div class="product-price">
-							  <p>&#x24;{{ product.price }} {{ site.currency }}</p>
-              </div>
-						</div>
-
-          </section>
+          <div class="product-details">
+            <div class="product-name">
+              <h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+            </div>
+            <div class="product-price">
+              <p>&#x24;{{ product.price }} {{ site.currency }}</p>
+            </div>
+          </div>
+        </section>
         {% endfor %}
       </main>
 
-      {% if page.sidebar_option == 'sidebar' %}{% include sidebar.html %}{% endif %}
-
+      {% if page.sidebar_option == 'sidebar' %}{% include sidebar.html %}{%
+      endif %}
+      <script
+        src="http://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        $(function () {
+          $('.filtering button').click(function () {
+            var get_id = this.id;
+            var get_current = $('.grid .' + get_id);
+            $('.entry').not(get_current).hide(500);
+            get_current.show(500);
+          });
+          $('#showall').click(function () {
+            $('.entry').show(500);
+          });
+        });
+      </script>
     </div>
   </div>
 </div>

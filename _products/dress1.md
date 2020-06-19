@@ -4,8 +4,8 @@ description_markdown: >-
   The Wilfred Montbrun dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '55.00'
 sizes:

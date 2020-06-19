@@ -4,9 +4,7 @@ description_markdown: >-
   Pack of 5 Sweaters. DONE ONLY BY REQUEST!
 
 
-categories:
-  - tops
-  - all
+category: tops
 
 garment_type:
 price: '35.00'

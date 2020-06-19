@@ -4,8 +4,8 @@ description_markdown: >-
   Zara black pleated palazzo. Condition 9/10.
 
 
+category: pants
 
-  
 garment_type:
 price: '25.00'
 sizes:

@@ -4,8 +4,8 @@ description_markdown: >-
   Silver Glitter Pants. Brand new!
 
 
+category: pants
 
-  
 garment_type:
 price: '40.00'
 sizes:

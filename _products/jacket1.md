@@ -4,8 +4,8 @@ description_markdown: >-
   Zara Suede Jacket. Brand new!
 
 
+category: jackets
 
-  
 garment_type:
 price: '30.00'
 sizes:

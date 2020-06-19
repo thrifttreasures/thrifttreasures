@@ -4,8 +4,8 @@ description_markdown: >-
  Marciano Dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '30.00'
 sizes:

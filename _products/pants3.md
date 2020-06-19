@@ -1,11 +1,11 @@
 ---
-name: fashionnova under a disco ball set (sliver) 
+name: fashionnova under a disco ball set (sliver)
 description_markdown: >-
   fashionnova under a disco ball set (sliver). Brand new!
 
 
+category: pants
 
-  
 garment_type:
 price: '60.00'
 sizes:

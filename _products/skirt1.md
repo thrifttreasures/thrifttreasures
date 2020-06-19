@@ -4,8 +4,8 @@ description_markdown: >-
  Zara Skirt. Brand new!
 
 
+category: skirts
 
-  
 garment_type:
 price: '12.00'
 sizes:

@@ -4,8 +4,8 @@ description_markdown: >-
   Two (2) Beach Pants sold together. Brand new!
 
 
+category: pants
 
-  
 garment_type:
 price: '25.00'
 sizes:

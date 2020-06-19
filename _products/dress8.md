@@ -4,9 +4,7 @@ description_markdown: >-
  bcbgmaxazria Dress. Brand new!
 
 
-categories:
-  - dress
-  - all
+category: dresses
 
 garment_type:
 price: '50.00'

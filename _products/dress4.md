@@ -4,8 +4,8 @@ description_markdown: >-
  Black and White Dress. Brand new!
 
 
+category: dresses
 
-  
 garment_type:
 price: '35.00'
 sizes:
