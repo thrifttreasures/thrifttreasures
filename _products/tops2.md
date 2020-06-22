@@ -1,7 +1,7 @@
 ---
 name: Pack of 5 Sweaters
 description_markdown: >-
-  Pack of 5 Sweaters. DONE ONLY BY REQUEST!
+  Pack of 5 Sweaters. DONE ONLY BY REQUEST! Your thrift store therapist is here to make thrifting easy for you by finding classy and elegant tops for your everyday glam life.
 
 
 category: tops
