@@ -1,7 +1,7 @@
 ---
 name: Pack of 10 Tops
 description_markdown: >-
-  Pack of 10 Tops. DONE ONLY BY REQUEST! Your thrift store therapist is here to make thrifting easy for you by finding classy and elegant tops for your everyday glam life.
+  Pack of 10 Tops. Please email for details on this request! Your thrift store therapist is here to make thrifting easy for you by finding classy and elegant tops for your everyday glam life.
 
 
 category: tops
