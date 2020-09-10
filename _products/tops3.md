@@ -13,7 +13,7 @@ sizes:
 sku: pants1
 styles:
   - name: black
-    image_path: /images/products/top3/top3.jpg
-featured_image_path: '/images/products/top3/top3.jpg'
+    image_path: /images/products/tops3/top3.jpg
+featured_image_path: '/images/products/tops3/top3.jpg'
 insta_link: 'https://www.instagram.com/thriftingtreasures_ab/'
 ---
