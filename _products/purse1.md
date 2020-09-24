@@ -1,7 +1,7 @@
 ---
-name: Kate spare bag
+name: Kate spade bag
 description_markdown: >-
- Kate spare bag.
+ Kate spade bag.
 
 
 category: purses
