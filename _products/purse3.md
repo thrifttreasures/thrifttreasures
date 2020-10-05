@@ -1,7 +1,7 @@
 ---
-name: Small bag
+name: Bcbg generation belt bag
 description_markdown: >-
- Small bag.
+ Bcbg generation belt bag.
 
 
 category: purses
