@@ -9,7 +9,7 @@ category: dresses
 garment_type:
 price: '25.00'
 sizes:
-  - Medium
+  - '11'
 sku: dress1
 styles:
   - name: Black
