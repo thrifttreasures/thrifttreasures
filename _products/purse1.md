@@ -7,7 +7,7 @@ description_markdown: >-
 category: purses
 
 garment_type:
-price: '50.00'
+price: '70.00'
 sizes:
   -
 sku: dress1
