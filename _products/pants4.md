@@ -7,7 +7,7 @@ description_markdown: >-
 category: pants
 
 garment_type:
-price: '25.00'
+price: '14.00'
 sizes:
   - Medium
 sku: pants1
